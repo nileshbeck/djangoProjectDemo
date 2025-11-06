@@ -1,0 +1,10 @@
+.register{
+    padding: 60px;
+     border: 5px solid rgb(36, 143, 230);
+     box-shadow: 21px 20px 87px rgb(29, 157, 231);
+     border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    font-weight: bold;
+    background-color: rgb(134, 174, 235)
+}
+

@@ -1,0 +1,88 @@
+body {
+      min-height: 100vh;
+      display: flex;
+      
+    }
+
+    .sidebar {
+      width: 200px;
+      background-color: #51e2f5;
+      color: white;
+      min-height: 100vh;
+      
+    }
+
+    .sidebar a {
+      color: #ff1d58;
+      display: flex;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      background-color: #9df9ef;
+      
+    }
+
+
+
+    /* heading */
+    /* search bar */
+
+.head {
+
+  display: flex;
+    justify-content:center;
+  align-items: center;
+  background-color:#51e2f5;
+  padding: 4px;
+  
+}
+
+.icons {
+  display: flex;
+  justify-content:space-around;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+/* heading */
+.search-bar {
+position: relative;
+max-width: 500px;
+margin: 8px auto;
+}
+
+
+.search-bar input {
+border-radius: 50px; /* rounded pill shape */
+border: 2px solid #0d6efd;
+padding: 10px 50px 10px 20px; /* extra right padding for button */
+width: 100%;
+outline: none;
+}
+
+
+.search-bar button {
+position: absolute;
+right: 5px;
+top: 50%;
+transform: translateY(-50%);
+border-radius: 50%; /* circular button */
+border: none;
+width: 40px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/* search bar end */
+/* end of head and sidebar */
+
+
+
