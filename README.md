@@ -1,5 +1,6 @@
 login
-email-nileshbeck@gmail.com
+email-   nileshbeck@gmail.com
 password-123456
-this project like imventory management system
+technology used Django
+this project like inventory management system website
 Crud operation is performed and also simple local based login 
